@@ -172,7 +172,7 @@
 ```bash
 cd docker
 cp .env.example .env
-docker compose up -d
+docker compose -p dify up -d
 ```
 
 بعد التشغيل، يمكنك الوصول إلى لوحة تحكم Dify في متصفحك على [http://localhost/install](http://localhost/install) وبدء عملية التهيئة.
